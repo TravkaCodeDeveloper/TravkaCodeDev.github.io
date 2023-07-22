@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%; /* заполняем цветом по горизонтали */
+    height: 100vh; /* заполняем цветом по вертикали */
+    background-color:darkseagreen;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.connection {
+    line-height: 30px;
+}
+
+.connection-containter {
+    margin: 0;
+    font-weight: bold; /* 700 == bold */
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: white;
+}
+
+.travkacode {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.discord-text {
+    background-color: #5765f5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.vk-text {
+    background-color: #0077ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.github-text {
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold; /* 700 == bold */
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+    color: white;
+}
+
+.avatar {
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.header-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.creating-text {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.projects {
+    margin: 0;
+    color: white;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container-language {
+    color: white;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.language-table {
+    margin: 0;
+    color: white;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    background-color: #00c0ff;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+.developer-status {
+    text-align: center;
+    background-color: rgb(10, 255, 10);
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.beginner-status {
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+.table-containter {
+    white-space: nowrap;
+}
+
+.projects {
+    color: white;
+    margin-top: 15px;
+    text-transform: lowercase;
+}
+
+table {
+    background-color: #739275;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.project-name {
+    text-align: center;
+    background-color: #00c0ff;
+    padding: 5px;
+    
+}
+
+.telegram-status {
+    background-color: #0088cc;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+.discord-status {
+    background-color: #5765f5;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+.vk-status {
+    background-color: #0077ff;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+}
+
+.offline-status {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 0px 5px 5px 00px;
+    text-align: center;
+}
+
+.online-status {
+    background-color: rgb(10, 255, 10);
+    padding: 5px;
+    border-radius: 0px 5px 5px 00px;
+    text-align: center;
+}
+
